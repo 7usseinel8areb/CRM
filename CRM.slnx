@@ -2,6 +2,7 @@
   <Project Path="CRM.API/CRM.API.csproj" />
   <Project Path="CRM.DataAccess/CRM.DataAccess.csproj" Id="bb9dbe5f-2999-4391-a807-fc399b3d9c46" />
   <Project Path="CRM.Model/CRM.Model.csproj" Id="690000f4-b7d3-4bed-9ff4-dca3943f2ce8" />
+  <Project Path="CRM.Service/CRM.Service.csproj" Id="2fa223af-e83a-441f-ab02-ada92d55a0da" />
   <Project Path="CRM.Utility/CRM.Utility.csproj" Id="8d01356b-3c9a-4d06-bfec-6b8285f80d1c" />
   <Project Path="CRM.WebBlazor/CRM.WebBlazor.csproj" Id="35eaba0c-9de7-4ab6-a79b-7b8a88c548d4" />
 </Solution>
