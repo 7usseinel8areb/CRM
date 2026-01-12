@@ -1,4 +1,6 @@
-﻿namespace CRM.API.Extensions
+﻿using System.Diagnostics;
+
+namespace CRM.API.Extensions
 {
     public static class SwaggerServiceExtensions
     {
@@ -17,6 +19,13 @@
             app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "CRM API v1");
+            });
+
+            var url = "https://localhost:7128/swagger/";
+            Process.Start(new ProcessStartInfo
+            {
+                FileName = url,
+                UseShellExecute = true
             });
         }
     }
