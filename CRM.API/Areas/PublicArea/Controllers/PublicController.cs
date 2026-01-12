@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using System.ComponentModel;
 
 namespace CRM.API.Areas.PublicArea.Controllers
@@ -14,6 +13,6 @@ namespace CRM.API.Areas.PublicArea.Controllers
         public IActionResult Get()
         {
             return Ok("This is a public endpoint.");
-        }   
+        }
     }
 }
