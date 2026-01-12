@@ -1,9 +1,9 @@
-﻿using CRM.API.Areas.Identity.Data;
+﻿using CRM.Model.Identity;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace CRM.API.Areas.Identity.Data;
+namespace CRM.DataAccess.Data;
 
 public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
 {
