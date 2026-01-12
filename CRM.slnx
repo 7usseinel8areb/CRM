@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="CRM.API/CRM.API.csproj" />
+  <Project Path="CRM.Utility/CRM.Utility.csproj" Id="8d01356b-3c9a-4d06-bfec-6b8285f80d1c" />
   <Project Path="CRM.WebBlazor/CRM.WebBlazor.csproj" Id="35eaba0c-9de7-4ab6-a79b-7b8a88c548d4" />
 </Solution>
