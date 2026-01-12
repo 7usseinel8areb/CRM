@@ -5,6 +5,15 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorComponents();
 
+var apiBaseAddress = builder.Configuration["ApiBaseAddress"]!;
+Console.WriteLine(apiBaseAddress);
+builder.Services.AddScoped(sp =>
+    new HttpClient
+    {
+        BaseAddress = new Uri(apiBaseAddress)
+    }
+);
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
