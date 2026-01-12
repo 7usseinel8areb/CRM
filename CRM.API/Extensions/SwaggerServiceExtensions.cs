@@ -5,9 +5,9 @@
         public static void AddSwaggerDocumentation(this IServiceCollection services,
                                                    IConfiguration configuration)
         {
-            services.AddSwaggerGen(c =>
-            {
-            });
+            services.AddEndpointsApiExplorer();
+            services.AddSwaggerGen();
+
         }
 
         public static void UseSwaggerDocumentation(this IApplicationBuilder app,
